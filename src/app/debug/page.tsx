@@ -28,11 +28,7 @@ export default function DebugPage() {
 
   const testOAuth = async () => {
     try {
-      const { createClient } = await import('@/lib/auth-client')
-      const supabase = createClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-      )
+      const supabase = (await import('@/lib/auth-client')).supabase
 
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
