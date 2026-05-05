@@ -1,0 +1,7 @@
+{
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://pgypxuiafruqartrmfua.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_-9w-4AcB6GjC0Gn3lQT6aA_Q3HLOpaf",
+    "NEXT_PUBLIC_BASE_URL": "https://aibox2-xxx-hellomoms-projects-1be3036b.vercel.app"
+  }
+}
